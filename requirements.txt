@@ -1,0 +1,20 @@
+# QUS app + pipeline dependencies
+# install with:  pip install -r requirements.txt
+ 
+# --- core numerics / signal processing ---
+numpy>=1.26
+scipy>=1.11
+ 
+# --- .mat file loading (v7 via scipy, v7.3/HDF5 via mat73) ---
+mat73>=0.65
+ 
+# --- plotting ---
+matplotlib>=3.8
+ 
+# --- app framework + interactive ROI canvas ---
+streamlit>=1.30
+streamlit-drawable-canvas>=0.9.3
+ 
+# --- image handling for the canvas background + data table ---
+pillow>=10.0
+pandas>=2.0
